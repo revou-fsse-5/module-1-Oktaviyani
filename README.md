@@ -10,6 +10,8 @@ please support my works
 | Email        | <katuniakz@gmail.com>       |
 
 I'm learning about sofware engineer and I'm trying to learn more about it
+I love Cat & Dogs, below some awesome pictures, that you can enjoy
 
-I love Dogs, below cute dog, that you can enjoy
-![Okta's Picture](https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg)
+| <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/A-Cat.jpg" width="300" height="250" alt="Okta's Cat Picture"> | <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg" width="300" height="250" alt="Okta's Dog Picture"> |
+|:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
+|                                                  Kocheng Lucu                                                            |                                                  Doggo Imut                                                                 |
