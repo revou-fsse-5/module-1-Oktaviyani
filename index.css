@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #3078d6;
+}
+
+th {
+    background-color: #09636e;
+}
+
+tr:hover {
+    background-color: #a81d1d;
+}
+/* Note: This CSS file belum boleh dipakai dalam latihan assignment. */
