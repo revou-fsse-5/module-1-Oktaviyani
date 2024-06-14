@@ -9,14 +9,14 @@ table {
 th, td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #3078d6;
+    border-bottom: 1px solid #7cc4f5;
 }
 
 th {
-    background-color: #09636e;
+    background-color: #0996e7;
 }
 
 tr:hover {
-    background-color: #a81d1d;
+    background-color: #388dc5;
 }
 /* Note: This CSS file belum boleh dipakai dalam latihan assignment. */
