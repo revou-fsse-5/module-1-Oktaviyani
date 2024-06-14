@@ -6,6 +6,8 @@
     <title>Dog Lovers</title>
     <link rel="stylesheet" href="index.css">
 </head>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
 <nav>
     <ul>
         <li><a href="#home">Home</a></li>
@@ -42,10 +44,28 @@
         background-color: #4075e9;
     }
 </style>
+<style>
+    .logo-top-right {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 50px; /* Adjust size as needed */
+        height: auto;
+    }
+</style>
+<img src="logo.png" alt="Dog Lovers Logo" class="logo-top-right">
+
+<div style="width: 50%; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
+    <div style="padding: 20px; background-color: lightblue; max-width: 100%; text-align: center;">
+        <img src="banner.png" alt="Banner" style="width: 100%; height: auto;">
+        <p style="color: white; font-size: 24px;">Welcome Dog Lovers in to Our Dog Play House</p>
+    </div>
+</div>
+
 
 <body>
-    <h1>Welcome Dog Lovers</h1>
-    <p>This is dog lovers website</p>
+    <h1 style="text-align: center; color: #4288e2; font-size: 28px; margin-top: 20px;">Our Guest Stars for this Weekend 14 June - 16 June 2024</h1>
+    <p style="text-align: center; color: #333; font-size: 18px; max-width: 600px; margin: 20px auto;">This weekend only, we will have some special guest stars for our dog lovers. They will be attending our dog house area. Let us introduce them to you with a sneak peek of the gals!</p>
 
 <table border="1">
     <tr>
@@ -56,7 +76,7 @@
     </tr>
     <tr>
         <td>Max</td>
-        <td>Golden Retriever</td>
+        <td>Husky</td>
         <td>5</td>
     </tr>
     <tr>
@@ -92,7 +112,60 @@
         }
     }
 </script>
-<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for names..">
+
+<div style="text-align: center;">
+    <h2>Dog Gallery</h2>
+
+    <div style="display: flex; justify-content: center; align-items: center;"> 
+        <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
+            <img src="max.png" alt="Dog 1" style="width:300px; height:200px;">
+            <p style="font-size: larger;"><strong>Meet Max, a playful Husky who loves to fetch and swim.</strong></p>
+            <p style="font-size: smaller;">Max playing in the water.</p>
+        </div>
+        <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
+            <img src="bella.png" alt="Dog 2" style="width:300px; height:200px;">
+            <p style="font-size: larger;"><strong>This is Bella, a friendly Labrador who enjoys long walks and cuddles</strong></p>
+            <p style="font-size: smaller;">Cute Bella</p>
+        </div>
+        <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
+            <img src="charlie.png" alt="Dog 3" style="width:300px; height:200px;">
+            <p style="font-size: larger;"><strong>Charlie is a smart Poodle who excels in agility and loves learning new tricks.</strong></p>
+            <p style="font-size: smaller;">Charlie looking enjoy</p>
+        </div>
+    </div>
+</div>
+
+<form action="/submit-booking" method="post">
+    <div style="text-align: center; margin-top: 20px;">
+        <h3>Book a Visit</h3>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <button type="submit" style="margin-top: 10px;">Submit Booking</button>
+    </div>
+</form>
+
+<div style="text-align: center; margin-top: 20px;">
+    <h3>Comments and Feedback</h3>
+    <form action="/submit-feedback" method="post">
+        <label for="comment">Your Comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+        <br>
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <button type="submit" style="margin-top: 10px;">Submit Feedback</button>
+    </form>
+</div>
+
+
+<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for dog names..">
 
 </body>
 </html>
