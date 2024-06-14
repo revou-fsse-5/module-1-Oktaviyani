@@ -9,7 +9,7 @@ please support my works
 | Instagram    | @katuniakz        |
 | Email        | <katuniakz@gmail.com>       |
 
-I'm learning about sofware engineer and I'm trying to learn more about it
+I'm learning about software engineer and I'm trying to learn more about it
 I love Cat & Dogs, below some awesome pictures, that you can enjoy
 
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/A-Cat.jpg" width="300" height="250" alt="Okta's Cat Picture"> | <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg" width="300" height="250" alt="Okta's Dog Picture"> |
@@ -18,3 +18,4 @@ I love Cat & Dogs, below some awesome pictures, that you can enjoy
 
 <span style="color: pink; font-weight: bold;">Don't forget to always love animals in your area~~  .</span> :cat: :dog: :cat: :dog:
 
+since i can't use my netlify, i will try to deploy in githup pages :cat: :dog:
