@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Dog Lovers</title>
+    <title>Dog Lovers</title>
 </head>
 <body>
-<p>I have always been a dog lover. Their loyalty and companionship bring immense joy to my life. Every time I see a dog, it brightens my day and fills my heart with warmth. Dogs have an incredible ability to sense emotions and provide comfort when needed. I truly believe that life is better with a furry friend by your side.</p>
+    <h1>Welcome Dog Lovers</h1>
+    <p>This is dog lovers website</p>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Breed</th>
+        <th>Age</th>
+        
+    </tr>
+    <tr>
+        <td>Max</td>
+        <td>Golden Retriever</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Bella</td>
+        <td>Labrador</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td>Poodle</td>
+        <td>4</td>
+    </tr>
+</table>
+
+<script>
+    function searchTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("dogTable");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 1; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0]; // Assuming search is for the Name column
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for names..">
+
 </body>
 </html>
