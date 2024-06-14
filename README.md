@@ -14,18 +14,6 @@ I love Cat & Dogs, below some awesome pictures, that you can enjoy
 
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/A-Cat.jpg" width="300" height="250" alt="Okta's Cat Picture"> | <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg" width="300" height="250" alt="Okta's Dog Picture"> |
 |:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-|                                                  Kocheng Lucu                                                            |                                                  Doggo Imut                                                                 |
-<style>
-@keyframes moveText {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(100px); }
-    100% { transform: translateX(0); }
-}
+|                                                  Kocheng Lucu :cat:                                                       |                                                  Doggo Imut :dog:                                                              |
 
-.moving-text {
-    display: inline-block;
-    animation: moveText 3s infinite;
-}
-</style>
-
-<p class="moving-text" style="color: pink;">Please support my work ya, masih belajar, maafkeun kalau aneh ^^</p>
+<span style="color: pink; font-weight: bold;">Don't forget to always love animals in your area~~  .</span> :cat: :dog: :cat: :dog:
