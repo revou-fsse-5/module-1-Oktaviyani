@@ -18,4 +18,5 @@ I love Cat & Dogs, below some awesome pictures, that you can enjoy
 
 <span style="color: pink; font-weight: bold;">Don't forget to always love animals in your area~~  .</span> :cat: :dog: :cat: :dog:
 
-since i can't use my netlify, i will try to deploy in githup pages :cat: :dog:
+Yey!!! my site available now!
+go visittt them >>>>>>>> :dog: :dog: https://oktadoghouse.netlify.app/
