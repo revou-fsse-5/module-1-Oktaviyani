@@ -82,7 +82,9 @@ nav ul li a:hover {
 
 .menu-toggle {
 display: flex;
+float: left;
 }
+
 
 .menu-toggle span {
     display: block;
@@ -443,5 +445,5 @@ align-items: center;
 
 @media (max-width: 600px) {
     nav ul {
-        display: none;
+        display: block;
     }
