@@ -8,34 +8,42 @@
 </head>
     <link rel="icon" href="logo.png" type="image/x-icon">
 
-<nav class="sticky">
-    <ul class="content">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Our Dogs Service</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
 
-<div class="menu-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-
-<img src="logo.png" alt="Dog Lovers Logo" class="logo-top-right">
-
-<div style="width: 50%; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
-    <div style="padding: 20px; background-color: lightblue; max-width: 100%; text-align: center;">
-        <img src="banner.png" alt="Banner" style="width: 100%; height: auto;">
-        <p style="color: white; font-size: 24px;">Welcome Dog Lovers in to Our Dog Play House</p>
-    </div>
-</div>
 
 <body>
+<header>
+    <nav class="sticky">
+        <ul class="content">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Our Dogs Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <img src="logo.png" alt="Dog Lovers Logo" class="logo-top-right">
+    
+    <div style="width: 50%; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
+        <div style="padding: 20px; background-color: lightblue; max-width: 100%; text-align: center;">
+            <img src="banner.png" alt="Banner" style="width: 100%; height: auto;">
+            <p style="color: white; font-size: 24px;">Welcome Dog Lovers in to Our Dog Play House</p>
+        </div>
+    </div>
+
+</header>
+ 
+<main>
+
     <h1 style="text-align: center; color: #4288e2; font-size: 28px; margin-top: 20px;">Our Guest Stars for this Weekend 14 June - 16 June 2024</h1>
     <p style="text-align: center; color: #333; font-size: 18px; max-width: 600px; margin: 20px auto;">This weekend only, we will have some special guest stars for our dog lovers. They will be attending our dog house area. Let us introduce them to you with a sneak peek of the gals!</p>
 
+</main>
 <table border="1" class="table">
     <tr>
         <th>Name</th>
@@ -60,44 +68,22 @@
     </tr>
 </table>
 
-<script>
-    function searchTable() {
-        var input, filter, table, tr, td, i, txtValue;
-        input = document.getElementById("searchInput");
-        filter = input.value.toUpperCase();
-        table = document.getElementById("dogTable");
-        tr = table.getElementsByTagName("tr");
-
-        for (i = 1; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0]; // Assuming search is for the Name column
-            if (td) {
-                txtValue = td.textContent || td.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
-                } else {
-                    tr[i].style.display = "none";
-                }
-            }
-        }
-    }
-</script>
-
 <div style="text-align: center;">
     <h2>Dog Gallery</h2>
 
     <div style="display: flex; justify-content: center; align-items: center;"> 
         <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
-            <img src="max.png" alt="Dog 1" style="width:300px; height:200px;">
+            <img src="asset/max.png" alt="Dog 1" style="width:300px; height:200px;">
             <p style="font-size: larger;"><strong>Meet Max, a playful Husky who loves to fetch and swim.</strong></p>
             <p style="font-size: smaller;">Max playing in the water.</p>
         </div>
         <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
-            <img src="bella.png" alt="Dog 2" style="width:300px; height:200px;">
+            <img src="asset/bella.png" alt="Dog 2" style="width:300px; height:200px;">
             <p style="font-size: larger;"><strong>This is Bella, a friendly Labrador who enjoys long walks and cuddles</strong></p>
             <p style="font-size: smaller;">Cute Bella</p>
         </div>
         <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
-            <img src="charlie.png" alt="Dog 3" style="width:300px; height:200px;">
+            <img src="asset/charlie.png" alt="Dog 3" style="width:300px; height:200px;">
             <p style="font-size: larger;"><strong>Charlie is a smart Poodle who excels in agility and loves learning new tricks.</strong></p>
             <p style="font-size: smaller;">Charlie looking enjoy</p>
         </div>
@@ -189,5 +175,26 @@
 
 <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for dog names..">
 
+<script>
+    function searchTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("dogTable");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 1; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0]; // Assuming search is for the Name column
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
 </body>
 </html>

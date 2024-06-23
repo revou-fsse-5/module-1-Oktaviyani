@@ -12,6 +12,8 @@ body {
     background-repeat: repeat-x;
     padding-bottom: 2000px;
 }
+
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -94,6 +96,7 @@ float: left;
     border-radius: 3px;
 }
 
+/* Note: Container yang kelompok breed anjing. */
 
 .container 
 {
@@ -129,72 +132,154 @@ align-items: center;
 
 .container div:nth-child(1)
 {
-    background-image: url('one.png');
+    background-image: url('asset/one.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(2)
 {
-    background-image: url('two.png');
+    background-image: url('asset/two.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(3)
 {
-    background-image: url('three.png');
+    background-image: url('asset/three.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(4)
 {
-    background-image: url('four.png');
+    background-image: url('asset/four.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(5)
 {
-    background-image: url('five.png');
+    background-image: url('asset/five.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(6)
 {
-    background-image: url('six.png');
+    background-image: url('asset/six.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(7)
 {
-    background-image: url('seven.png');
+    background-image: url('asset/seven.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(8)
 {
-    background-image: url('eight.png');
+    background-image: url('asset/eight.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(9)
 {
-    background-image: url('nine.png');
+    background-image: url('asset/nine.png');
     background-size: cover;
     background-position: center;
 }
 
 .container div:nth-child(10)
 {
-    background-image: url('ten.png');
+    background-image: url('asset/ten.png');
     background-size: cover;
     background-position: center;
+}
+
+
+.container2
+{
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.kolom-utama
+{
+    flex: 3;
+    order: 2;
+    padding: 20px;
+    background-color: #eb81c7;
+    box-sizing: border-box;
+    width: 30px;
+  
+}
+
+.sidebar-satu
+{
+    flex: 1;
+    order: 1;
+    background-color: #7be7d0;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30px;
+}
+
+.sidebar-dua
+{
+    flex: 1;
+    order: 3;
+    background-color: #65ade9;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30px;
+}
+
+.container3
+{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service 
+{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: white;
+ 
+}
+.service-reguler
+{
+    background-color: #0996e7;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.service-vip
+{
+    background-color: #eb81c7;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.service-vvip
+{
+    background-color: #7be7d0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
@@ -203,7 +288,6 @@ align-items: center;
     width: 800px;
     margin: 50px auto;
     background-color: white;
-    padding: 20px;
     box-sizing: border-box;
     display: flex;
 }
@@ -242,6 +326,7 @@ align-items: center;
     box-sizing: border-box;
     text-align: justify;
     color: white;
+    display: block;
 }
 .service-reguler
 {
@@ -266,184 +351,22 @@ align-items: center;
     box-sizing: border-box;
 }
 
-
-
-
-.container 
+@media (max-width: 768px) 
 {
-    width: 900px;
-    height: 400px;
-    border:0px solid lightskyblue; 
-    margin: 30px auto;
-    padding: 10px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container div 
-{
-width: 150px;
-height: 150px;
-background-color: #0996e7;
-margin: 5px;
-text-align: center;
-color: rgb(63, 240, 240);
-font-size: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.container div:nth-child(1)
-{
-    background-image: url('one.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(2)
-{
-    background-image: url('two.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(3)
-{
-    background-image: url('three.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(4)
-{
-    background-image: url('four.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(5)
-{
-    background-image: url('five.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(6)
-{
-    background-image: url('six.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(7)
-{
-    background-image: url('seven.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(8)
-{
-    background-image: url('eight.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(9)
-{
-    background-image: url('nine.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.container div:nth-child(10)
-{
-    background-image: url('ten.png');
-    background-size: cover;
-    background-position: center;
-}
-
-
-.container2
-{
-    width: 800px;
-    margin: 50px auto;
-    background-color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-}
-
-.kolom-utama
-{
-    flex: 3;
-    order: 2;
-    padding: 20px;
-}
-
-.sidebar-satu
-{
-    flex: 1;
-    order: 1;
-}
-
-.sidebar-dua
-{
-    flex: 1;
-    order: 3;
-}
-
-.container3
-{
-    width: 800px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.service 
-{
-    width: 30%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: justify;
-    color: white;
-}
-.service-reguler
-{
-    background-color: #0996e7;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-
-}
-.service-vip
-{
-    background-color: #eb81c7;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.service-vvip
-{
-    background-color: #7be7d0;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
     nav ul {
         width: 50%;
     }
+}
 
-@media (max-width: 600px) {
+@media (max-width: 600px) 
+{
     nav ul {
         display: block;
     }
+}
+
+@media (max-width: 300px) 
+{
+    nav ul {
+        display: block;
+}
