@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog Lovers</title>
+    <title>Dog House : satu satunya dog house di Indonesia dengan fasilitas terlengkap</title>
     <link rel="stylesheet" href="index.css">
 </head>
     <link rel="icon" href="logo.png" type="image/x-icon">
-
+    <meta name="description" content="Dog House Indonesia - Your one-stop destination for all dog needs. Explore our services, meet our furry friends, and learn more about us.">
 
 
 <body>
@@ -19,6 +19,9 @@
             <li><a href="#services">Our Dogs Service</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        
+    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for dog names..">
+    <img src="logopaw.png" alt="Dog Lovers Logo" class="logo-top-right">
     </nav>
     
     <div class="menu-toggle">
@@ -27,21 +30,22 @@
         <span></span>
     </div>
     
-    <img src="logo.png" alt="Dog Lovers Logo" class="logo-top-right">
     
-    <div style="width: 50%; text-align: center; margin-top: 20px; margin-left: auto; margin-right: auto;">
-        <div style="padding: 20px; background-color: lightblue; max-width: 100%; text-align: center;">
-            <img src="banner.png" alt="Banner" style="width: 100%; height: auto;">
-            <p style="color: white; font-size: 24px;">Welcome Dog Lovers in to Our Dog Play House</p>
+    <div>
+        <div class="bannerhead"></div>
+        <div class="bannerdesign">
+            <img src="banner.png" class="banneratas">
+            <p>Welcome Dog Lovers in to Our Dog Play House</p>
         </div>
+        
     </div>
 
 </header>
  
 <main>
 
-    <h1 style="text-align: center; color: #4288e2; font-size: 28px; margin-top: 20px;">Our Guest Stars for this Weekend 14 June - 16 June 2024</h1>
-    <p style="text-align: center; color: #333; font-size: 18px; max-width: 600px; margin: 20px auto;">This weekend only, we will have some special guest stars for our dog lovers. They will be attending our dog house area. Let us introduce them to you with a sneak peek of the gals!</p>
+    <h1>Our Guest Stars for this Weekend 14 June - 16 June 2024</h1>
+    <p class="keterangan">This weekend only, we will have some special guest stars for our dog lovers. They will be attending our dog house area. Let us introduce them to you with a sneak peek of the gals!</p>
 
 </main>
 <table border="1" class="table">
@@ -68,27 +72,30 @@
     </tr>
 </table>
 
-<div style="text-align: center;">
-    <h2>Dog Gallery</h2>
-
-    <div style="display: flex; justify-content: center; align-items: center;"> 
-        <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
-            <img src="asset/max.png" alt="Dog 1" style="width:300px; height:200px;">
-            <p style="font-size: larger;"><strong>Meet Max, a playful Husky who loves to fetch and swim.</strong></p>
-            <p style="font-size: smaller;">Max playing in the water.</p>
-        </div>
-        <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
-            <img src="asset/bella.png" alt="Dog 2" style="width:300px; height:200px;">
-            <p style="font-size: larger;"><strong>This is Bella, a friendly Labrador who enjoys long walks and cuddles</strong></p>
-            <p style="font-size: smaller;">Cute Bella</p>
-        </div>
-        <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
-            <img src="asset/charlie.png" alt="Dog 3" style="width:300px; height:200px;">
-            <p style="font-size: larger;"><strong>Charlie is a smart Poodle who excels in agility and loves learning new tricks.</strong></p>
-            <p style="font-size: smaller;">Charlie looking enjoy</p>
+<section>
+    <div style="text-align: center;">
+        <h2>Dog Gallery</h2>
+    
+        <div class="container-guest"> 
+            <div class="max-guest">
+                <img src="asset/max.png">
+                <p style="font-size: larger;" class="larger-font"><strong>Meet Max, a playful Husky who loves to fetch and swim.</strong></p>
+                <p style="font-size: smaller;" class= "smaller-font">Max playing in the water.</p>
+            </div>
+            <div class="bella-guest">
+                <img src="asset/bella.png">
+                <p style="font-size: larger;"><strong>This is Bella, a friendly Labrador who enjoys long walks and cuddles</strong></p>
+                <p style="font-size: smaller;">Cute Bella.</p>
+            </div>
+            <div class="charlie-guest">
+                <img src="asset/charlie.png">
+                <p style="font-size: larger;"><strong>Charlie is a smart Poodle who excels in agility and loves learning new tricks.</strong></p>
+                <p style="font-size: smaller;">Charlie looking enjoy.</p>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 
 <form action="/submit-booking" method="post">
     <div style="text-align: center; margin-top: 20px;">
@@ -172,8 +179,16 @@
     </form>
 </div>
 
+<div class="social-networks">
+    <h3>Follow Us</h3>
+    <ul>
+        <li><a href="https://www.instagram.com/oktadogpark/" target="_blank"><img src="insta.png" alt="Instagram Icon" class="social1"></a></li>
+        <li><a href="https://www.facebook.com/oktadogpark/" target="_blank"><img src="fb.png" alt="Facebook Icon" class="social1"></a></li>
+        <li><a href="mailto:info@oktadogpark.com"><img src="email.png" alt="Email Icon" class="social1"></a></li>
+        <li><a href="https://www.tiktok.com/@oktadogpark" target="_blank"><img src="tiktok.png" alt="TikTok Icon" class="social1"></a></li>
+    </ul>
+</div>
 
-<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for dog names..">
 
 <script>
     function searchTable() {
