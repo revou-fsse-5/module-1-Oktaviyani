@@ -20,3 +20,9 @@ I love Cat & Dogs, below some awesome pictures, that you can enjoy
 
 Yey!!! my site available now!
 go visittt them >>>>>>>> :dog: :dog: https://oktadoghouse.netlify.app/
+
+This website about dog house
+People can book their need in our doghouse, so its available in our homepage
+every weekend we will have guest for play, and its free to play with them!
+we also have some dog citizen that u can view in our website and its not for sale!!
+This business only contain playfullness
