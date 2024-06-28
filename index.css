@@ -451,6 +451,9 @@ ul li {
     nav ul {
         width: 50%;
     }
+    h1 {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 600px) 
@@ -458,10 +461,16 @@ ul li {
     nav ul {
         display: block;
     }
+    h1 {
+        font-size: 20px;
+    }
 }
 
-@media (max-width: 300px) 
+@media (max-width: 360px) 
 {
     nav ul {
         display: block;
-}}
+    }
+    h1 {font-size: 10px;
+    }    
+}
