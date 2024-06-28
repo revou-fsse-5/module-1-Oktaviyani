@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -18,11 +18,28 @@ body {
     height: 100px;
 }
 
+/* tes font face*/
+
+
+/*
 .bannerdesign img
 {
     display: block;
     margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    transition-property: banner.png;
+    transition-duration: 3s;
 }
+
+.bannerdesign img :hover
+{ 
+    background-size: 150%;
+}
+*/
+
 
 .bannerdesign p
 {
@@ -34,10 +51,33 @@ body {
 }
 
 h1 {
+    font-family: Bangers, sans-serif;
     text-align: center;
     color: #1aa19b;
-    font-size: 28px;
+    font-size: 38px;
     margin-top: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(135, 195, 222);
+    background-image: linear-gradient(to right, #65ade9, #fd89cd, #67f7d3, #e9e772);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.main {
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
 }
 
 .keterangan 
@@ -166,6 +206,7 @@ border-radius: 10px;
 
 /* Note: Container yang kelompok breed anjing. */
 
+/* mau ganti ke grid
 .container 
 {
     width: 900px;
@@ -188,7 +229,7 @@ width: 150px;
 height: 150px;
 background-color: #0996e7;
 margin: 5px;
-text-align: center;
+text-align: justify;
 color: rgb(56, 184, 243);
 font-size: 10px;
 display: flex;
@@ -274,91 +315,41 @@ transform: scale(1.1);
     background-position: center;
 }
 
+*/
 
-.container2
-{
-    width: 100%;
-    max-width: 1000px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-    @media (max-width: 768px) {
-        flex-direction: row-reverse;
-    }
-}
-
-.kolom-utama
-{
-    flex: 3;
-    order: 2;
+form {
     padding: 20px;
-    background-color: #eb81c7;
-    box-sizing: border-box;
-    width: 30px;
-  
+    padding-bottom: 40px;
 }
 
-.sidebar-satu
-{
-    flex: 1;
-    order: 1;
-    background-color: #7be7d0;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 30px;
+.permanent{
+    color: #eb81c7;
+    background-color: #ec5ebd;
+    background-image: linear-gradient(to right, #fdbbe7, white);
+    text-align: center;
+    font-size: 40px;
+    margin top: 50px;
+    padding: 50px;
 }
 
-.sidebar-dua
-{
-    flex: 1;
-    order: 3;
-    background-color: #65ade9;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 30px;
-}
 
-.container3
-{
-    width: 800px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-}
+/*tugas grid*/
 
-.service 
-{
-    width: 30%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: justify;
-    color: white;
- 
-}
-.service-reguler
-{
-    background-color: #0996e7;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+.container-grid {
 
-}
-.service-vip
-{
-    background-color: #eb81c7;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 200px 100px 200px 100px 150px 300px;
+    grid-template-rows: 300px 300px;
     
 }
-.service-vvip
-{
-    background-color: #7be7d0;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+
+.grid-item {
+width: 100%;
 }
 
+.grid-item img {
+    width: 100%;
+}
 
 .container2
 {
